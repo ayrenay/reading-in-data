@@ -1,0 +1,1 @@
+options(blogdown.author = 'Alexis Johnson-Gresham')
