@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Reading in Data</title>
+    <link>/post/</link>
+    <description>Recent content in Post on Reading in Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>/post/welcome/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/welcome/</guid>
+      <description>So, this is the part where you set up a blog to prove to the world that you know a thing or two.
+There are still a lot of HTML/CSS tweaks to make, but it sure is nice to get started.
+Here&amp;rsquo;s to getting a lot of public-facing data practice done in the future!</description>
+    </item>
+    
+  </channel>
+</rss>
