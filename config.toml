@@ -22,7 +22,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
   # recommended in blogdown
   author = "Alexis Johnson-Gresham"
-  dateFormat = "2006/01/02"
+  dateFormat = "01/02/2006"
 
   # Sets the meta tag description
   description          = "A blog on all things data, by Alexis Johnson-Gresham.\n\nFollow along for tips and tricks as I learn more about statistics, predictive modeling, data analysis, data visualization, and R."
@@ -50,7 +50,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
   # These are stored in the favicon folder. See the following for more information:
   # https://github.com/audreyr/favicon-cheat-sheet
-  loadFavicon          = false
+  loadFavicon          = true
   faviconVersion       = ""
   # Sets Social Share links to appear on posts
   socialShare          = true
@@ -152,11 +152,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   #identifier = "fa fa-sitemap"
   #weight = 4
 
-[[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  identifier = "far fa-comments"
-  weight = 5
+#[[menu.main]]
+  #name = "Contact"
+  #url = "/contact/"
+  #identifier = "far fa-comments"
+  #weight = 5
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
