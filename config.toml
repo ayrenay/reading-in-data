@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://www.readingindata.com/"
 languageCode = "en-us"
 title = "Reading in Data"
 theme = "hugo-future-imperfect"
@@ -23,6 +23,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # recommended in blogdown
   author = "Alexis Johnson-Gresham"
   dateFormat = "01/02/2006"
+  
+  # I added this
+  copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
   # Sets the meta tag description
   description          = "A blog on all things data, by Alexis Johnson-Gresham.\n\nFollow along for tips and tricks as I learn more about statistics, predictive modeling, data analysis, data visualization, and R."
