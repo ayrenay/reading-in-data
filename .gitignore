@@ -1,4 +1,4 @@
 # Netlify
-*.toml
+# *.toml
 *.netlify
 .Rproj.user

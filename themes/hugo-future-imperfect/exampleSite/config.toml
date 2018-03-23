@@ -1,39 +1,27 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Reading in Data"
+title = "Hugo Future Imperfect"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "readingindata"
-googleAnalytics = "UA-116152069-1"
+disqusShortname = "shortname"
+googleAnalytics = ""
 pluralizeListTitles = false
-
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
 canonifyURLs = true
 
-# built-in settings recommended by blogdown
-enableEmoji = true
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-[permalinks]
-  post = "/:year/:month/:day/:slug/"
-
 [params]
-  # recommended in blogdown
-  author = "Alexis Johnson-Gresham"
-  dateFormat = "2006/01/02"
-
   # Sets the meta tag description
-  description          = "A blog on all things data, by Alexis Johnson-Gresham.\n\nFollow along for tips and tricks as I learn more about statistics, predictive modeling, data analysis, data visualization, and R."
+  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Reading in Data"
+  navbarTitle          = "Future Imperfect"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
-  dynamicTitles        = false
+  dynamicTitles        = true
   # Sets RSS icons to appear on the sidebar with the social media buttons
   rssAppearAtTop       = true
   rssAppearAtBottom    = true
@@ -45,7 +33,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # set to show or to hide categories in the sidebar
   showSidebarCategories = true
   # Sets Estimated Reading Time to appear in post headers
-  includeReadingTime   = false
+  includeReadingTime   = true
   # Sets the Favicon and Version for the site. Default support is for
   # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
   # These are stored in the favicon folder. See the following for more information:
@@ -99,22 +87,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Reading in Data"
+  header    = "Hugo Future Imperfect"
 
-  paragraph = "by Alexis Johnson-Gresham"
+  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
 
-  about     = "I'm a data afficianado who loves all things visualization, modeling, and experimentation. Besides improving my data skills I also like to teach and talk about SQL, R, and transforming analysis into insight."
+  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
     src       = "/img/main/logo.jpg"
     # Sets Image to be a cirlce
-    circle    = true
+    circle    = false
     # Sets Image to be Future Imperfect's hexagon
     imperfect = true
     width     = ""
-    alt       = "A picture of Alexis Johnson-Gresham"
+    alt       = "Hugo Future Imperfect"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -123,47 +111,47 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
 [[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  identifier = "far fa-chart-bar"
-  weight = 3
-
-[[menu.main]]
-  name = "Blog"
+  name = "Home"
   url = "/"
-  identifier = "fas fa-pencil-alt"
+  identifier = "fa fa-home"
   weight = 1
 
 [[menu.main]]
   name = "About"
   url = "/about/"
-  identifier = "far fa-id-card"
-  weight = 6
+  identifier = "fa fa-id-card-o"
+  weight = 2
 
 [[menu.main]]
-  name = "How-To"
-  url = "/how-to/"
-  identifier = "far fa-question-circle"
+  name = "Blog"
+  url = "/blog/"
+  identifier = "fa fa-newspaper-o"
+  weight = 3
+
+[[menu.main]]
+  name = "Itemized"
+  url = "/itemized/"
+  identifier = "fa fa-list"
   weight = 4
 
-#[[menu.main]]
-  #name = "Categories"
-  #url = "/categories/"
-  #identifier = "fa fa-sitemap"
-  #weight = 4
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  identifier = "fa fa-sitemap"
+  weight = 5
 
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
-  identifier = "far fa-comments"
-  weight = 5
+  identifier = "fa fa-envelope-o"
+  weight = 6
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github           = "ayrenay"
+  github           = "jpescador/hugo-future-imperfect"
   gitlab           = ""
   stackoverflow    = "" # User Number
   bitbucket        = ""
@@ -171,22 +159,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   codepen          = ""
   # Visual Art Communities
   deviantart       = ""
-  flickr           = ""
+  flickr           = "example"
   behance          = ""
   dribbble         = ""
   # Publishing Communities
   wordpress        = ""
   medium           = ""
   # Professional/Business Oriented Communities
-  linkedin         = "ajohnsongresham"
-  linkedin_company = ""
+  linkedin         = "example"
+  linkedin_company = "examplebusiness"
   foursquare       = ""
   xing             = ""
   slideshare       = ""
   # Social Networks
-  facebook         = ""
+  facebook         = "example"
   googleplus       = ""
-  reddit           = ""
+  reddit           = "example"
   quora            = ""
   youtube          = ""
   vimeo            = ""
@@ -194,16 +182,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     # WeChat and QQ need testing.
     wechat         = ""
     qq             = "" # User ID Number
-  instagram        = ""
+  instagram        = "example"
   tumblr           = ""
-  twitter          = "ayrenay"
+  twitter          = "example"
   skype            = ""
   snapchat         = ""
-  pinterest        = ""
-  telegram         = ""
+  pinterest        = "example"
+  telegram         = "example"
   vine             = ""
   googlescholar    = ""
   orcid            = ""
-  researchgate     = ""
+  researchgate     = "example"
   # Email
-  email            = "readingindata.gmail.com"
+  email            = "example"
