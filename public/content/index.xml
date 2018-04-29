@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content on Reading in Data</title>
+    <link>/blog/content/</link>
+    <description>Recent content in Content on Reading in Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/content/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>/blog/content/blog/welcome/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/content/blog/welcome/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

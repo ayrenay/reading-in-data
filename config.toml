@@ -6,7 +6,7 @@ preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "readingindata"
 googleAnalytics = "UA-116152069-1"
-pluralizeListTitles = false
+pluralizeListTitles = true
 
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
@@ -17,7 +17,7 @@ enableEmoji = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
-  post = "/:year/:month/:day/:slug/"
+  post = "/blog/:year/:month/:day/:slug/"
 
 [params]
   # recommended in blogdown
@@ -32,7 +32,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Reading in Data"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  viewMorePostLink     = "/post/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -125,17 +125,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
-[[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  identifier = "far fa-chart-bar"
-  weight = 3
+#[[menu.main]]
+#  name = "Projects"
+#  url = "/projects/"
+#  identifier = "far fa-chart-bar"
+#  weight = 3
 
-[[menu.main]]
-  name = "Blog"
-  url = "/"
-  identifier = "fas fa-pencil-alt"
-  weight = 1
+#[[menu.main]]
+#  name = "Blog"
+#  url = "/blog/"
+#  identifier = "fas fa-pencil-alt"
+#  weight = 1
 
 [[menu.main]]
   name = "About"
@@ -143,11 +143,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   identifier = "far fa-id-card"
   weight = 6
 
-[[menu.main]]
-  name = "How-To"
-  url = "/how-to/"
-  identifier = "far fa-question-circle"
-  weight = 4
+#[[menu.main]]
+#  name = "How-To"
+#  url = "/how-to/"
+#  identifier = "far fa-question-circle"
+#  weight = 4
 
 #[[menu.main]]
   #name = "Categories"

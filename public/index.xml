@@ -13,10 +13,10 @@
     
     <item>
       <title>Welcome</title>
-      <link>/2018/03/21/welcome/</link>
+      <link>/blog/2018/03/21/welcome/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/03/21/welcome/</guid>
+      <guid>/blog/2018/03/21/welcome/</guid>
       <description>So, this is the part where you set up a blog to prove to the world that you know a thing or two.
 There are still a lot of HTML/CSS tweaks to make, but it sure is nice to get started.
 Here&amp;rsquo;s to getting a lot of public-facing data practice done in the future!</description>
@@ -96,10 +96,10 @@ Here&amp;rsquo;s to getting a lot of public-facing data practice done in the fut
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/blog/2015-07-23-r-rmarkdown/</link>
+      <link>/blog/2015/07/23/hello-r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
+      <guid>/blog/2015/07/23/hello-r-markdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>

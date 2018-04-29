@@ -8,6 +8,7 @@ tags:
   - plot
   - R Markdown
   - regression
+draft: true
 ---
 
 ```{r setup, include=FALSE}

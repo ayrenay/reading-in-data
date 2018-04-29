@@ -3,11 +3,13 @@
     {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
-        {{ range first 1 (where .Site.Pages "Type" "post") }}
-            {{ .Render "content-single" }}
+        {{ range first 5 (where .Site.Pages "Type" "post") }}
+            {{ .Render "content-list" }}
 
             {{ partial "share-menu" . }}
         {{ end }}
     </div>
     {{ partial "sidebar" . }}
 {{ partial "footer" . }}
+
+

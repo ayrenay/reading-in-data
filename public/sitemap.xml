@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2018/03/21/welcome/</loc>
+    <loc>/blog/2018/03/21/welcome/</loc>
     <lastmod>2018-03-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,7 +48,7 @@
   </url>
   
   <url>
-    <loc>/blog/2015-07-23-r-rmarkdown/</loc>
+    <loc>/blog/2015/07/23/hello-r-markdown/</loc>
     <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -60,12 +60,6 @@
   
   <url>
     <loc>/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
